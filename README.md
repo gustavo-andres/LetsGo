@@ -1,4 +1,4 @@
-# LetsGo
+# LetsGo: Learning Series
 # Go Web Development: Self-Study Guide
 
 Welcome to your self-guided journey to mastering web development with Go! This guide is designed for independent learning, with each section building upon the previous one. Follow along with the examples, complete the exercises, and soon you'll be building powerful web applications and RESTful APIs with Go.
