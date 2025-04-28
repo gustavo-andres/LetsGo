@@ -123,13 +123,7 @@ func NewBookStore() *BookStore {
 - `mutex` helps us handle concurrent access safely (we'll explain this later).
 - `NewBookStore()` creates a new store and adds some sample books.
 
-Let's save this file and check that it compiles:
-
-```bash
-go build
-```
-
-If there are no errors, great! If there are errors, double-check your code.
+Let's save this file. Note that we can't run `go build` just yet because we're referencing the `AddBook()` function in our `NewBookStore()` function, but we haven't defined it yet. We'll add that in the next step.
 
 ## Step 4: Adding BookStore Methods
 
@@ -223,7 +217,7 @@ func (bs *BookStore) DeleteBook(id int) bool {
 **What are those mutex things?**
 The `mutex.Lock()` and `mutex.RLock()` calls help prevent problems when multiple users access our API simultaneously. Think of them as a "busy" sign that prevents conflicts. We'll use `Lock()` when modifying data and `RLock()` (Read Lock) when just reading data.
 
-Let's make sure our code still compiles:
+Now that we've added all the necessary functions for our BookStore, let's make sure our code compiles:
 
 ```bash
 go build
