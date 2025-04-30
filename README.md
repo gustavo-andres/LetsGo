@@ -1,15 +1,14 @@
 # LetsGo: First Coding Question
 # Go Workshop: From Basics to Frequency Analysis
 
-This guide outlines a 10-day workshop to teach Go programming fundamentals, gradually building toward solving a frequency distribution problem. Each day introduces new concepts with practical examples.
+This guide outlines a 10-step workshop to teach Go programming fundamentals, gradually building toward solving a frequency distribution problem. Each step introduces new concepts with practical examples.
 
 ## Workshop Overview
 
 - **Target Audience**: Beginners with limited programming experience
-- **Duration**: 10 days (2 weeks)
 - **Final Project**: Calculate and display the top 3 authors by post frequency
 
-## Day 1: Basic Syntax and Data Types
+## Step 1: Basic Syntax and Data Types
 
 ### Lesson Goals
 - Understand Go's basic syntax
@@ -51,7 +50,7 @@ Have students modify the program to:
 1. Add another author with a different post count
 2. Calculate and display the percentage for both authors
 
-## Day 2: Arrays and Slices
+## Step 2: Arrays and Slices
 
 ### Lesson Goals
 - Understand fixed-size arrays vs. dynamic slices
@@ -102,7 +101,7 @@ Have students:
 1. Add two more authors and their post counts
 2. Calculate and display the percentage of posts for each author
 
-## Day 3: Structs and Custom Types
+## Step 3: Structs and Custom Types
 
 ### Lesson Goals
 - Define custom types using structs
@@ -176,7 +175,7 @@ Have students:
 2. Create 5 posts distributed among these authors
 3. Print out which author wrote each post
 
-## Day 4: Maps for Key-Value Storage
+## Step 4: Maps for Key-Value Storage
 
 ### Lesson Goals
 - Understand maps for key-value relationships
@@ -243,7 +242,7 @@ Have students:
 2. Count how many students prefer each language
 3. Calculate the percentage for each language
 
-## Day 5: Functions and Returns
+## Step 5: Functions and Returns
 
 ### Lesson Goals
 - Write reusable functions
@@ -312,7 +311,7 @@ Have students:
 2. Write a function that determines if an author is in the "top 3" by post count
 3. Use these functions with the existing data
 
-## Day 6: Control Flow and Sorting
+## Step 6: Control Flow and Sorting
 
 ### Lesson Goals
 - Understand more complex control structures
@@ -388,7 +387,7 @@ Have students:
 2. Add logic to handle ties in frequency (secondary sort by name)
 3. Implement a different top-N function (e.g., bottom 2)
 
-## Day 7: Creating Collections of Structs
+## Step 7: Creating Collections of Structs
 
 ### Lesson Goals
 - Work with collections of custom types
@@ -486,7 +485,7 @@ Have students:
 2. Implement a function to find all posts by a specific author
 3. Count posts by month (using the CreatedAt field)
 
-## Day 8: Putting It All Together - First Attempt
+## Step 8: Putting It All Together - First Attempt
 
 ### Lesson Goals
 - Begin implementing the full solution
@@ -578,7 +577,7 @@ Have students:
 2. Add error handling for missing author IDs
 3. Format the output to match the required precision
 
-## Day 9: Adding Sorting and Top-N Selection
+## Step 9: Adding Sorting and Top-N Selection
 
 ### Lesson Goals
 - Sort the results by frequency
@@ -699,7 +698,7 @@ Have students:
 2. Implement secondary sorting (by name when frequencies are equal)
 3. Make the number of top results configurable
 
-## Day 10: Final Solution - Encapsulating in a Function
+## Step 10: Final Solution - Encapsulating in a Function
 
 ### Lesson Goals
 - Encapsulate the solution in a reusable function
